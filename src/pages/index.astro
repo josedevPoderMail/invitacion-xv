@@ -1,0 +1,67 @@
+---
+import { FirstSection } from "../components/FirstSection.tsx";
+import { SecondSection } from "../components/SecondSection";
+import { LayoutRoses } from "../components/LayoutRoses";
+import { ThirdSection } from "../components/ThirdSection";
+import { FourhSection } from "../components/FourthSection";
+import { FifthSection } from "../components/FifthSection";
+import { ThanksSection } from "../components/ThanksSection";
+import { SixthSection } from "../components/SixthSection";
+import { GallerySection } from "../components/GallerySection";
+import AudioPlayer from './audio.astro';
+
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Mis XV</title>
+		<link rel="stylesheet" href="/src/index.css" />
+	</head>
+	<body class="bg-[url('/decorations/bg-home.png')]">
+		<main class="h-screen w-sreen p-0 m-0">
+			<div class="  fixed left-0 right-0 top-2 m-auto z-50 flex justify-center  ">
+				<AudioPlayer />
+			  </div>
+			<FirstSection />
+			<LayoutRoses>
+				<SecondSection />
+			</LayoutRoses>
+			<LayoutRoses>
+				<ThirdSection />
+			</LayoutRoses>
+
+			<LayoutRoses>
+				<FourhSection />
+			</LayoutRoses>
+
+			<LayoutRoses>
+				<FifthSection />
+			</LayoutRoses>
+
+			<LayoutRoses>
+				<SixthSection />
+			</LayoutRoses>
+
+			{
+				[
+					"/galery/1.png",
+					"/galery/2.png",
+					"/galery/3.png",
+					"/galery/4.png",
+					"/galery/5.png",
+				].map((item, index) => {
+					return (
+						<LayoutRoses>
+							<GallerySection image={item} />;
+						</LayoutRoses>
+					);
+				})
+			}
+
+			<ThanksSection />
+		</main>
+	</body>
+</html>

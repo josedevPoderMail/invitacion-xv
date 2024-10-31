@@ -1,0 +1,17 @@
+---
+import '../index.css';
+---
+
+<div id="custom-audio-player" class="audio-player flex justify-center items-center">
+  <button id="play-pause" class="flex justify-center items-center gap-2"></button>
+</div>
+
+<audio id="music-bg"  style="display: none;">
+  <source src="/music/cancion.mp3" type="audio/mpeg">
+  Tu navegador no soporta la reproducción de audio.
+</audio>
+
+<script>
+import { setupAudioPlayer } from '../utils/audioPlayer';
+  setupAudioPlayer();
+</script>

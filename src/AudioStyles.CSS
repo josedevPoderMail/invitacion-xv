@@ -1,0 +1,24 @@
+#play-pause {
+  padding: 12px 20px;
+  background-color: #4a90e2; /* Azul suave */
+  color: #ffffff; /* Texto blanco */
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#play-pause:hover {
+  background-color: #357ABD; /* Azul más oscuro */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+#play-pause:active {
+  transform: scale(0.95);
+}
