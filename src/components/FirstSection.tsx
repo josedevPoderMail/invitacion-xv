@@ -41,7 +41,7 @@ export const FirstSection = () => {
                             </div>
                            <div className="w-full relative">
                            <img className="absolute left-0 right-0 m-auto h-12"  src="/decorations/2.svg" alt="" />
-                           <h3 className="text-white text-[30px] font-dm-serif text-center my-20 ">Madrina: Niete Elías</h3>
+                           <h3 className="text-white text-[30px] font-dm-serif text-center my-20 ">Madrina: Nicte Elías</h3>
                            </div>
                         </div>
 

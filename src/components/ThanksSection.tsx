@@ -3,7 +3,7 @@
 export const ThanksSection = () => {
     return (
         <>
-            <div className="h-full w-full relative flex flex-col justify-center items-center" > \
+            <div className="h-full w-full relative flex flex-col justify-center items-center" >
                 <ItemTop noImage='u1' style='absolute top-0 left-0 h-48 w-48' />
                 <ItemTop noImage='u2' style='absolute top-0 right-0 h-48 w-48' />
                 <ItemTop noImage='u3' style='absolute bottom-0 left-0 h-48 w-48 ' />

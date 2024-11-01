@@ -31,7 +31,7 @@ export const FourhSection = () => {
     return <>
       <div className="flex flex-col gap-2 items-center" >
         <div className="w-full flex flex-col gap-2 justify-center items-center">
-          <h2 className="font-dm-serif text-3xl text-center text-primary font-semibold">Templo de la Asunción de María</h2>
+          <h2 className="font-dm-serif text-3xl text-center text-primary font-semibold">Templo Asunción de María</h2>
           <h4 className=" w-[80%] font-poppins text-primary text-center text-xl"
           >30099, Panteleón Domínguez 11, Miguel  Alemán, Comitán de Domínguez, Chis</h4>
         </div>
