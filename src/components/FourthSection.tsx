@@ -5,7 +5,7 @@ export const FourhSection = () => {
           {/*Section de la informacion de la tarjeta */}
           <div className="flex justify-center items-center h-auto w-full bg-[#C77C77]" >
             <h2 className="py-5 font-dm-serif text-white text-center text-4xl xl:text-6xl">
-              Evento
+              Misa
             </h2>
           </div>
           {/* Contenido de las iglesia y evento */}
