@@ -16,6 +16,7 @@ import AudioPlayer from './audio.astro';
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width" />
+		<link rel="shortcut icon" href="/favicon.svg" type="image/x-icon">
 		<meta name="generator" content={Astro.generator} />
 		<title>Mis XV</title>
 		<link rel="stylesheet" href="/src/index.css" />
@@ -42,16 +43,17 @@ import AudioPlayer from './audio.astro';
 			</LayoutRoses>
 
 			<LayoutRoses>
-				<SixthSection />
+				<SixthSection client:load/>
 			</LayoutRoses>
 
 			{
 				[
 					"/galery/1.png",
-					"/galery/2.png",
+					"/galery/5.png",
+					"/galery/6.png",
 					"/galery/3.png",
 					"/galery/4.png",
-					"/galery/5.png",
+					"/galery/2.png",
 				].map((item, index) => {
 					return (
 						<LayoutRoses>
