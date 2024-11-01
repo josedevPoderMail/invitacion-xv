@@ -17,7 +17,7 @@ export const SixthSection = () => {
                     </div>
                     {/* Contenido de las iglesia y evento */}
                     <div className=" w-full h-full xl:w-1/2 xl:h-1/2   flex flex-col items-center gap-10 relative">
-                        <h3 className=" font-poppins text-primary text-center text-3xl xl:text-4xl ">Confirma via</h3>
+                        <h3 className=" font-poppins text-primary text-center text-3xl xl:text-4xl ">Confirma vía</h3>
                         <h2 className=" font-poppins text-primary text-center font-semibold text-4xl xl:text-5xl ">Whatsapp</h2>
                       < WsLink/>
                     </div>
